@@ -8,7 +8,7 @@ openai_api_key=st.secrets.OPENAI_API_KEY
 password =  st.sidebar.text_input('Give me password', type='password')
 
 st.title('💬Chat for Friends')
-st.caption("LODox Concept Chat powered by OpenAI LLM")
+st.caption("朋友们来聊聊天")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
