@@ -6,8 +6,6 @@ import streamlit as st
 # openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 openai_api_key=st.secrets.OPENAI_API_KEY
 password =  st.sidebar.text_input('Give me password', type='password')
-openai_api_key=st.secrets.PASSWORD
-
 
 st.title('💬Chat for Friends')
 st.caption("LODox Concept Chat powered by OpenAI LLM")
